@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1509a35d42c6f68946d47415b890aaca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1509a35d42c6f68946d47415b890aaca" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1509a35d42c6f68946d47415b890aaca = L.map(
+                "map_1509a35d42c6f68946d47415b890aaca",
+                {
+                    center: [42.04075661983259, -93.6339305900401],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20d866102433f4631175f8d8ed8044e0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_20d866102433f4631175f8d8ed8044e0.addTo(map_1509a35d42c6f68946d47415b890aaca);
+        
+    
+            var marker_fb37535b928201d1a19174b4b90a8834 = L.marker(
+                [42.05198234419191, -93.6574501465908],
+                {
+}
+            ).addTo(map_1509a35d42c6f68946d47415b890aaca);
+        
+    
+        var popup_cc125560b5846c2c934a10321db7e8bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_077b8c5b00276e896bb17873545c5da2 = $(`<div id="html_077b8c5b00276e896bb17873545c5da2" style="width: 100.0%; height: 100.0%;">     <b>Index:</b> 1007<br>     <b>SalePrice:</b> $755000<br>     <b>GrLivArea:</b> 4316 sqft<br>     <b>OverallQual:</b> 10<br>     <b>KitchenQual:</b> Ex<br>     <b>TotRmsAbvGrd:</b> 10<br>     <b>Fireplaces:</b> 2<br>     <b>PSF:</b> $174.93 /sqft     </div>`)[0];
+                popup_cc125560b5846c2c934a10321db7e8bc.setContent(html_077b8c5b00276e896bb17873545c5da2);
+            
+        
+
+        marker_fb37535b928201d1a19174b4b90a8834.bindPopup(popup_cc125560b5846c2c934a10321db7e8bc)
+        ;
+
+        
+    
+    
+            var marker_7ea70f5583cc536182d0e5f83afeb6a3 = L.marker(
+                [42.02953089547328, -93.61041103348938],
+                {
+}
+            ).addTo(map_1509a35d42c6f68946d47415b890aaca);
+        
+    
+        var popup_63df31b2fa6ba7d4f9a4c85b7c304d1d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dddb649bd6b25b7675be5deb74344571 = $(`<div id="html_dddb649bd6b25b7675be5deb74344571" style="width: 100.0%; height: 100.0%;">     <b>Index:</b> 2003<br>     <b>SalePrice:</b> $475000<br>     <b>GrLivArea:</b> 3608 sqft<br>     <b>OverallQual:</b> 10<br>     <b>KitchenQual:</b> Ex<br>     <b>TotRmsAbvGrd:</b> 12<br>     <b>Fireplaces:</b> 2<br>     <b>PSF:</b> $131.65 /sqft     </div>`)[0];
+                popup_63df31b2fa6ba7d4f9a4c85b7c304d1d.setContent(html_dddb649bd6b25b7675be5deb74344571);
+            
+        
+
+        marker_7ea70f5583cc536182d0e5f83afeb6a3.bindPopup(popup_63df31b2fa6ba7d4f9a4c85b7c304d1d)
+        ;
+
+        
+    
+</script>
+</html>
