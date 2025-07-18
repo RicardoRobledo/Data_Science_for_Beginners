@@ -1,6 +1,6 @@
 # Data Science Beginner's Guide Notebook
 
-This notebook is based on the book The Beginners Guide to Data Science and covers essential data science topics with practical examples and explanations.
+This notebook is based on the The Beginners Guide to Data Science book from [machinelearningmastery.com](https://machinelearningmastery.com/) and covers essential data science topics with practical examples and explanations.
 
 ## Key Topics Covered
 
